@@ -11,6 +11,6 @@ public class UnitTest {
 
     @Test
     public void shouldBeFailed() {
-        assertThat(3 - 1).isEqualTo(2);
+        assertThat(2 - 1).isEqualTo(2);
     }
 }
