@@ -2,7 +2,7 @@ name: Build + tests
 
 on:
   push:
-    branches: ["master"], ["add-negative-test"]
+    branches: ["master", "add-negative-test"]
   pull-request:
     branches: ["master"]
 
