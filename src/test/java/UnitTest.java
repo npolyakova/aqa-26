@@ -8,4 +8,9 @@ public class UnitTest {
     public void shouldBeSuccessful() {
         assertThat(1 + 1).isEqualTo(2);
     }
+
+    @Test
+    public void shouldBeFailed() {
+        assertThat(2 - 1).isEqualTo(2);
+    }
 }
