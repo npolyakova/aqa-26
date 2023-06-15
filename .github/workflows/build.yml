@@ -2,8 +2,8 @@ name: Build + tests
 
 on:
   push:
-    branches: ["master"], ["add-negative-test"]
-  pull-request:
+    branches: ["master", "add-negative-test"]
+  pull_request:
     branches: ["master"]
 
 permissions:
